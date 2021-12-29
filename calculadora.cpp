@@ -12,9 +12,9 @@ int main(){
 
     vector<string> historial;
 
-    cout << "################" << endl;
+    cout << "****************" << endl;
     cout << "  CALCULADORA:" << endl;
-    cout << "################" << endl;
+    cout << "****************" << endl;
 
     do{
         cout << endl << "Introduzca el 1er numero:" << endl;
