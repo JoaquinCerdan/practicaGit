@@ -17,16 +17,16 @@ int main(){
     cout << "****************" << endl;
 
     do{
-        cout << endl << "Introduzca el 1er numero:" << endl;
-        cin >> primero;
-        cout << "Introduzca el 2o numero:" << endl;
-        cin >> segundo;
         do{
 
             cout << "Introduzca la operacion a realizar (+, -, *, /):" << endl;
             cin >> operacion;
 
         }while(operacion != '/' && operacion != '*' && operacion != '+' && operacion != '-');
+        cout << endl << "Introduzca el 1er numero:" << endl;
+        cin >> primero;
+        cout << "Introduzca el 2o numero:" << endl;
+        cin >> segundo;
 
         switch (operacion)
         {
