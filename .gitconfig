@@ -1,0 +1,11 @@
+[user]
+	email = *****
+	name = *****
+	password = *****
+[credential]
+	helper = store
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
