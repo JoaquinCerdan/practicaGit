@@ -64,6 +64,7 @@ int main(){
     for(int i = 0; i < historial.size(); i++)
         cout << historial[i] << endl;
 
-    cout << endl;
+    // Le quito el punto y coma para el bisect
+    cout << endl
     return 0;
 }
